@@ -11,7 +11,7 @@ import {
   Button
 } from 'react-native';
 
-const remote = 'https://c21stores-weblinc.netdna-ssl.com/product_images/tee-dress/420/590b399f69702d086600013a/super_zoom.jpg?c=1493907871';
+const img = 'https://c21stores-weblinc.netdna-ssl.com/product_images/tee-dress/420/590b399f69702d086600013a/super_zoom.jpg?c=1493907871';
 
 export default class App extends Component{
   render() {
@@ -22,8 +22,11 @@ export default class App extends Component{
           flex: 1,
           resizeMode,
         }}
-        source={{ uri: remote }}
+        source={{ uri: img }}        
       />
+      
+
+      
     );
   }
 }
